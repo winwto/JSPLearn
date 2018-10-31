@@ -16,7 +16,7 @@
 <body>
     <%
 
-        out.println(new Date());
+        out.println("当前时间：" + new Date());
         out.println("用户名：" + user);
     %>
 </body>
